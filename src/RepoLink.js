@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
-class GitHubCall extends Component {
+class RepoLink extends Component {
   constructor(props) {
-    super(props) 
-    this.state = { userData: {} }
-  }
+    super(props)
+      this.state = { userData: {} }
+    }
+
   componentDidMount() {
     fetch("https://api.github.com/users/PacificRebel")
     .then(response => response.json())
@@ -15,11 +16,13 @@ class GitHubCall extends Component {
   }
   render() {
     return (
-      <div className="githubcall">
-      {this.state.userData["name"]}
+      <div className="repolink">
+      <p>
+      <a href={this.state.userData.repos_url}>Repositories</a>
+      </p>
       </div>
     )
   }
 }
 
-export default GitHubCall
+export default RepoLink

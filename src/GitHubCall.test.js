@@ -13,6 +13,6 @@ jest.spyOn(global, "fetch").mockImplementation(() => {
 test ("shows my name", async () => {
   render(<GitHubCall />)
 
-  const element = await waitForElement(() => screen.getByText("Lemony Snicket"))
+  const element = await screen.findByText("Lemony Snicket")
   expect(element).toBeInTheDocument()
 })

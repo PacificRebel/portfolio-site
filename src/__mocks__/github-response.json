@@ -12,7 +12,7 @@
   "starred_url": "https://api.github.com/users/PacificRebel/starred{/owner}{/repo}",
   "subscriptions_url": "https://api.github.com/users/PacificRebel/subscriptions",
   "organizations_url": "https://api.github.com/users/PacificRebel/orgs",
-  "repos_url": "https://api.github.com/users/PacificRebel/repos",
+  "repos_url": "https://api.github.com/users/PacificRebel/repos1",
   "events_url": "https://api.github.com/users/PacificRebel/events{/privacy}",
   "received_events_url": "https://api.github.com/users/PacificRebel/received_events",
   "type": "User",
