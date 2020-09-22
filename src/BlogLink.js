@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './BlogLink.css';
 
 class BlogLink extends Component {
   constructor(props) {

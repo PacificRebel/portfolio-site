@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './GitHubCall.css';
 
 class GitHubCall extends Component {
   constructor(props) {

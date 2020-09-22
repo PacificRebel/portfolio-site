@@ -4,12 +4,10 @@ import RepoLink from './RepoLink';
 import BlogLink from './BlogLink';
 import './App.css';
 import { Column, Row } from 'simple-flexbox';
-import { ThemeProvider, createTheme } from 'arwes';
 
 class App extends Component{
   render(){
     return(
-      <ThemeProvider theme={createTheme()}>
       <Column flexGrow={1}>
         <Row horizontal='center'>
           <h1><GitHubCall /></h1>
@@ -23,7 +21,6 @@ class App extends Component{
           </Column>
         </Row>
       </Column>
-      </ThemeProvider>
     );
   }
 }

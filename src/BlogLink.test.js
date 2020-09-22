@@ -7,6 +7,6 @@ import mockResponse from './__mocks__/github-response.json'
 test ("shows link to blog", async () => {
   render(<BlogLink />)
 
-  const element = await screen.findByText("https://medium.com/team-6")
+  const element = await screen.findByText("Blogs")
   expect(element).toBeInTheDocument()
 })
