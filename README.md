@@ -10,7 +10,7 @@ It was made with [Create React App](https://github.com/facebook/create-react-app
 `yarn add simple-flexbox`
 - then add `import { Column, Row } from 'simple-flexbox';` to App.js
 
-To open the app in a browser:
+### To open the app in a browser:
 #### `yarn start`
 URL: [http://localhost:3000](http://localhost:3000)
 
