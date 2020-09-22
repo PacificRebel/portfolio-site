@@ -4,7 +4,14 @@
   /* border:solid 2px #41403E; */
 }
 
-.GibHubCall_content {
-  font-size: 15px;
-  text-align: center;
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:active {
+  text-decoration: underline;
 }
