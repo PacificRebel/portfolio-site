@@ -1,5 +1,5 @@
 
-##Portfolio
+## Portfolio
 
 This is a test-driven, React-native web app which calls the GitHub API to link to my pages.
 
