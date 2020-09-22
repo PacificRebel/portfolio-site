@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GitHubCall from './GitHubCall';
 import RepoLink from './RepoLink';
+import BlogLink from './BlogLink';
 import './App.css';
 import { Column, Row } from 'simple-flexbox';
 
@@ -13,11 +14,10 @@ class App extends Component{
         </Row>
         <Row vertical='center'>
           <Column flexGrow={1} horizontal='center'>
-            <h3> Contact </h3>
-            <span>  </span>
+            <span> <RepoLink />  </span>
           </Column>
           <Column flexGrow={1} horizontal='center'>
-            <span> <RepoLink /></span>
+            <span> <BlogLink /> </span>
           </Column>
         </Row>
       </Column>

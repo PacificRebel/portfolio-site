@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class RepoLink extends Component {
+class BlogLink extends Component {
   constructor(props) {
     super(props)
       this.state = { userData: {} }
@@ -16,13 +16,13 @@ class RepoLink extends Component {
   }
   render() {
     return (
-      <div className="repolink">
+      <div className="bloglink">
       <p>
-      <a href={this.state.userData.repos_url}>GitHub repos</a>
+      <a href={this.state.userData.blog}>Blogs</a>
       </p>
       </div>
     )
   }
 }
 
-export default RepoLink
+export default BlogLink
