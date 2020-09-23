@@ -1,8 +1,8 @@
 import React from 'react'
 import { render, screen, waitForElement } from '@testing-library/react'
 
-import GitHubCall from './GitHubCall'
-import mockResponse from './__mocks__/github-response.json'
+import GitHubCall from '../components/GitHubCall'
+import mockResponse from '../components/__mocks__/github-response.json'
 
 jest.spyOn(global, "fetch").mockImplementation(() => {
   return Promise.resolve({

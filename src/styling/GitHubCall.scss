@@ -1,10 +1,10 @@
-.bloglink {
-  font-family: 'Special Elite';
-  margin: 40px;
-  /* border: 2px solid black; */
+$mainFont: 'Special Elite';
+
+.githubcall {
+  font-family: $mainFont;
 }
 
-a:link {
+link {
   text-decoration: none;
 }
 

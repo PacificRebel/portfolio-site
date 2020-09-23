@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import './GitHubCall.css';
-import './GitHubCall.scss';
+import '../styling/GitHubCall.scss';
 
 class GitHubCall extends Component {
   constructor(props) {

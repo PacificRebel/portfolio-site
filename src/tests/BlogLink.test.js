@@ -1,8 +1,8 @@
 import React from 'react'
 import { render, screen, waitForElement } from '@testing-library/react'
 
-import BlogLink from './BlogLink'
-import mockResponse from './__mocks__/github-response.json'
+import BlogLink from '../components/BlogLink'
+import mockResponse from '../components/__mocks__/github-response.json'
 
 test ("shows link to blog", async () => {
   render(<BlogLink />)

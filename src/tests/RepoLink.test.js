@@ -1,8 +1,8 @@
 import React from 'react'
 import { render, screen, waitForElement } from '@testing-library/react'
 
-import RepoLink from './RepoLink'
-import mockResponse from './__mocks__/github-response.json'
+import RepoLink from '../components/RepoLink'
+import mockResponse from '../components/__mocks__/github-response.json'
 
 test ("shows link to github", async () => {
   render(<RepoLink />)

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './BlogLink.scss';
+import '../styling/BlogLink.scss';
 
 class BlogLink extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import GitHubCall from './GitHubCall';
-import RepoLink from './RepoLink';
-import BlogLink from './BlogLink';
+import GitHubCall from './components/GitHubCall';
+import RepoLink from './components/RepoLink';
+import BlogLink from './components/BlogLink';
 import './App.css';
 import { Column, Row } from 'simple-flexbox';
 
