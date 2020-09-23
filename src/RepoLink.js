@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './RepoLink.css';
+import './RepoLink.scss';
 
 class RepoLink extends Component {
   constructor(props) {

@@ -1,7 +1,11 @@
-.repolink {
+.bloglink {
   font-family: 'Special Elite';
   margin: 40px;
-  /* border:solid 2px #41403E; */
+  /* border: 2px solid black; */
+}
+
+a:link {
+  text-decoration: none;
 }
 
 a:visited {
