@@ -4,3 +4,18 @@
   font-size: 20px;
   font-weight: lighter;
 }
+.container {
+display: flex-grow;
+flex-direction: row;
+height: 250px;
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.card {
+    flex: 0 1 26%;
+}

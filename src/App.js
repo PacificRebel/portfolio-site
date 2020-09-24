@@ -9,45 +9,50 @@ import { Column, Row } from 'simple-flexbox';
 class App extends Component{
   render(){
     return(
-      <Column flexGrow={1}>
+      <Column>
+      <div class="container">
 
-        <Row vertical='center'>
+                  <section class="cards">
 
-        <Column flexGrow={1} horizontal='center'>
-          <span><GitHubCall /></span>
-        </Column>
+                      <article class="card">
+                         <p><GitHubCall /></p>
+                      </article>
 
-        <Column flexGrow={1} horizontal='center'>
-          <span></span>
-        </Column>
+                      <article class="card">
+                         <p>   </p>
+                      </article>
 
-        <Column
-                flexGrow={1}
-                horizontal='center'
-                style={{ fontFamily: 'Special Elite' }}>
-          <span>/about</span>
-        </Column>
+                      <article class="card">
+                        <p>/about</p>
+                      </article>
 
-        </Row>
+                      <article class="card">
+                         <p>Front End Developer</p>
+                      </article>
 
-        <Row vertical='center'>
+                      <article class="card">
+                         <p>   </p>
+                      </article>
 
-          <Column flexGrow={1} horizontal='center'>
-            <span><RepoLink /></span>
-          </Column>
+                      <article class="card">
+                         <p>   </p>
+                      </article>
 
-          <Column flexGrow={1} horizontal='center'>
-            <span><BlogLink /></span>
-          </Column>
+                      <article class="card">
+                        <p><RepoLink /></p>
+                      </article>
 
-          <Column flexGrow={1} horizontal='center'
-          style={{ fontFamily: 'Special Elite' }}>
-            <span><StarredRepos /></span>
-          </Column>
+                      <article class="card">
+                        <p><BlogLink /></p>
+                      </article>
 
-        </Row>
-
+                      <article class="card">
+                        <p><StarredRepos /></p>
+                      </article>
+                  </section>
+      </div>
       </Column>
+
     );
   }
 }
