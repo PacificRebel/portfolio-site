@@ -1,8 +1,9 @@
-.bloglink {
-  font-family: 'Special Elite';
-  // margin: 40px;
-  /* border: 2px solid black; */
+$mainFont: 'Special Elite';
+
+.starredrepos {
+  font-family: $mainFont;
 }
+
 
 a:link {
   text-decoration: none;
