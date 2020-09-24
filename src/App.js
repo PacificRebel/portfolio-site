@@ -15,7 +15,10 @@ class App extends Component{
                   <section class="cards">
 
                       <article class="card">
-                         <p><GitHubCall /></p>
+                      <div class="text">
+                         <h3><GitHubCall /></h3>
+                         <p>Front End Developer</p>
+                         </div>
                       </article>
 
                       <article class="card">
@@ -24,18 +27,6 @@ class App extends Component{
 
                       <article class="card">
                         <p>/about</p>
-                      </article>
-
-                      <article class="card">
-                         <p>Front End Developer</p>
-                      </article>
-
-                      <article class="card">
-                         <p>   </p>
-                      </article>
-
-                      <article class="card">
-                         <p>   </p>
                       </article>
 
                       <article class="card">

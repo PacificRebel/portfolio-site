@@ -4,6 +4,7 @@
   font-size: 20px;
   font-weight: lighter;
 }
+
 .container {
 display: flex-grow;
 flex-direction: row;
@@ -17,5 +18,10 @@ height: 250px;
 }
 
 .card {
-    flex: 0 1 26%;
+   flex: 0 1 26%;
+   margin: 10px;
+}
+
+.card .text {
+   padding: 0 20px 20px;
 }
