@@ -14,5 +14,7 @@ test ("shows Team-6-Game", async () => {
   render(<StarredRepos />)
 
   const element = await screen.findByText("Team-6-Game")
+
+  screen.debug()
   expect(element).toBeInTheDocument()
 })

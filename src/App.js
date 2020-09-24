@@ -11,8 +11,19 @@ class App extends Component{
     return(
       <Column flexGrow={1}>
 
-        <Row horizontal='center'>
-          <h1><GitHubCall /></h1>
+        <Row horizontal='space-between'>
+        <Column flexGrow={1} horizontal='left'>
+          <span> <GitHubCall />  </span>
+        </Column>
+        <Column flexGrow={1} horizontal='left'>
+          <span>    </span>
+        </Column>
+        <Column
+                flexGrow={1}
+                horizontal='left'
+                style={{ fontFamily: 'Special Elite' }}>
+          <span> /about  </span>
+        </Column>
         </Row>
 
         <Row vertical='center'>
@@ -25,7 +36,8 @@ class App extends Component{
             <span> <BlogLink /> </span>
           </Column>
 
-          <Column flexGrow={1} horizontal='center'>
+          <Column flexGrow={1} horizontal='center' 
+          style={{ fontFamily: 'Special Elite' }}>
             <span> <StarredRepos /> </span>
           </Column>
 
