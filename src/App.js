@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import GitHubCall from './components/GitHubCall';
 import RepoLink from './components/RepoLink';
 import BlogLink from './components/BlogLink';
-import StarredRepos from './components/StarredRepos';
+import ProjectOne from './components/ProjectOne';
 import './App.scss';
 import { Column, Row } from 'simple-flexbox';
 
@@ -38,7 +38,7 @@ class App extends Component{
                       </article>
 
                       <article class="card">
-                        <p><StarredRepos /></p>
+                        <p><ProjectOne /></p>
                       </article>
                   </section>
       </div>

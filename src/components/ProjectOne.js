@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styling/RepoLink.scss';
 
-class StarredRepos extends Component {
+class ProjectOne extends Component {
   constructor(props) {
     super(props)
       this.state = { starredUserData: [] }
@@ -26,19 +26,23 @@ class StarredRepos extends Component {
     const data = this.state.starredUserData
     console.log(data)
     let name = ''
-    let id = ''
+    // let id = ''
+    // let description = ''
     if (data.length > 0) {
       name = data[0].name
-      id = data[0].owner.id
+      // id = data[0].owner.id
+      // description = data[0].description
     }
 
     return (
-      <div className="starredrepos">
-        <p>{name}{id}</p> {/* //.map(repo => <p><a href={repo["repo_url"]}>{repo["name"]}</a></p>)} */}
+      <div className="projectone">
+        <p>
+        <a href={name}>{name}</a>
+        </p> {/* //.map(repo => <p><a href={repo["repo_url"]}>{repo["name"]}</a></p>)} */}
       </div>
      )
    }
  }
 
 
- export default StarredRepos
+ export default ProjectOne
