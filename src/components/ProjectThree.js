@@ -45,12 +45,12 @@ class ProjectThree extends Component {
         onMouseLeave={this.handleMouseHover}
       >
         <p>
-        <li><Link to="/ProjectThreeDetails">{name}</li>
-
+        <a Link to="/ProjectThreeDetails">{name}</a>
+        </p>
       </div>
       {this.state.isHovering && <div>{description}</div>}
       </div>
-      </p>
+
      )
    }
  }

@@ -18,42 +18,56 @@ class App extends Component{
                   <section class="cards">
 
                       <article class="card">
+                         <h2>Heli Sivunen</h2>
+                      </article>
+
+                      <article class="card">
                       <div class="text">
-                         <h3><GitHubCall /></h3>
-                         <h5>Job title here</h5>
+                         <p>Job title here</p>
                          </div>
                       </article>
 
                       <article class="card">
-                         <p>   </p>
-                      </article>
-
-                      <article class="card">
+                      <div class="text">
                         <p>/about</p>
+                        {/*put link to README from github front page*/}
+                        </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                         <p><RepoLink /></p>
+                        </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                         <p><ProjectTwo /></p>
+                        </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                         <p><ProjectOne /></p>
+                        </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                         <p><ProjectThree /></p>
+                        </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                          <p>   </p>
+                         </div>
                       </article>
 
                       <article class="card">
+                      <div class="text">
                          <p>   </p>
+                         </div>
                       </article>
                   </section>
       </div>

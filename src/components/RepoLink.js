@@ -19,7 +19,8 @@ class RepoLink extends Component {
     return (
       <div className="repolink">
       <p>
-      <a href={this.state.userData.repos_url}>GitHub repos</a>
+      <a href="https://github.com/PacificRebel">GitHub</a>
+      {/*<a href={this.state.userData.repos_url}>GitHub</a>*/}
       </p>
       </div>
     )
