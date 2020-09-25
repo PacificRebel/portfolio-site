@@ -29,7 +29,7 @@ class ProjectThreeDetails extends Component {
     return (
       <div className="projectthree">
       <p>
-      <a href={name}>{name}</a>
+      {name}{description}{homepage}
       </p>
       </div>
      )
