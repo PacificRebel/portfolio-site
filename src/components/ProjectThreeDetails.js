@@ -27,10 +27,10 @@ class ProjectThreeDetails extends Component {
     }
 
     return (
-      <div className="projectthree">
-      <p>
+      <div className="projectthreedetails">
+      <span>
       {name}{description}{homepage}
-      </p>
+      </span>
       </div>
      )
    }

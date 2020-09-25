@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import GitHubCall from './components/GitHubCall';
 import RepoLink from './components/RepoLink';
 import BlogLink from './components/BlogLink';
 import ProjectOne from './components/ProjectOne';
 import ProjectTwo from './components/ProjectTwo';
 import ProjectThree from './components/ProjectThree';
-import ProjectThreeDetails from './components/ProjectThreeDetails'
 import './App.scss';
 import { Column, Row } from 'simple-flexbox';
 
@@ -23,7 +21,7 @@ class App extends Component{
 
                       <article class="card">
                       <div class="text">
-                         <p>Job title here</p>
+                         <p>Front End Developer</p>
                          </div>
                       </article>
 
@@ -37,6 +35,12 @@ class App extends Component{
                       <article class="card">
                       <div class="text">
                         <p><RepoLink /></p>
+                        </div>
+                      </article>
+
+                      <article class="card">
+                      <div class="text">
+                        <p><BlogLink /></p>
                         </div>
                       </article>
 

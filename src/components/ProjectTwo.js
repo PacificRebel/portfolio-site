@@ -44,9 +44,9 @@ class ProjectTwo extends Component {
         onMouseEnter={this.handleMouseHover}
         onMouseLeave={this.handleMouseHover}
       >
-        <p>
+        <span>
         <a href={name}>{name}</a>
-        </p>
+        </span>
       </div>
       {this.state.isHovering && <div>{description}</div>}
       </div>

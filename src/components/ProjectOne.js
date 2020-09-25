@@ -49,8 +49,9 @@ class ProjectOne extends Component {
         <p>
         <a href={name}>{name}</a>
         </p>
+              {this.state.isHovering && <div>{description}</div>}
       </div>
-      {this.state.isHovering && <div>{description}</div>}
+
       </div>
      )
    }
