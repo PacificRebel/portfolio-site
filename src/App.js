@@ -3,6 +3,8 @@ import GitHubCall from './components/GitHubCall';
 import RepoLink from './components/RepoLink';
 import BlogLink from './components/BlogLink';
 import ProjectOne from './components/ProjectOne';
+import ProjectTwo from './components/ProjectTwo';
+import ProjectThree from './components/ProjectThree';
 import './App.scss';
 import { Column, Row } from 'simple-flexbox';
 
@@ -17,7 +19,7 @@ class App extends Component{
                       <article class="card">
                       <div class="text">
                          <h3><GitHubCall /></h3>
-                         <p>Job title here</p>
+                         <h5>Job title here</h5>
                          </div>
                       </article>
 
@@ -34,11 +36,23 @@ class App extends Component{
                       </article>
 
                       <article class="card">
-                        <p><BlogLink /></p>
+                        <p><ProjectTwo /></p>
                       </article>
 
                       <article class="card">
                         <p><ProjectOne /></p>
+                      </article>
+
+                      <article class="card">
+                        <p><ProjectThree /></p>
+                      </article>
+
+                      <article class="card">
+                         <p>   </p>
+                      </article>
+                      
+                      <article class="card">
+                         <p>   </p>
                       </article>
                   </section>
       </div>

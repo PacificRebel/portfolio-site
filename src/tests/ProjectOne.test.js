@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen, waitForElement } from '@testing-library/react'
 
-import StarredRepos from '../components/StarredRepos'
+import ProjectOne from '../components/ProjectOne'
 import mockResponse from '../components/__mocks__/starred_github_response.json'
 
 jest.spyOn(global, "fetch").mockImplementation(() => {
