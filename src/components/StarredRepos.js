@@ -8,7 +8,7 @@ class StarredRepos extends Component {
     }
 
   componentDidMount() {
-    this._isMounted = true;
+    // this._isMounted = true;
     fetch("https://api.github.com/users/PacificRebel/starred")
     .then(response => response.json())
     .then(data => {
@@ -17,16 +17,25 @@ class StarredRepos extends Component {
     })
   }
 
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
+  // componentWillUnmount() {
+  //   this._isMounted = false;
+  // }
 
 
   render() {
-     return (
-       <div className="starredrepos">
-       {this.state.starredUserData.map((repo) => <p><a href={repo["repo_url"]}>{repo["name"]}</a></p>)}
-       </div>
+    const data = this.state.starredUserData
+    console.log(data)
+    let name = ''
+    let id = ''
+    if (data.length > 0) {
+      name = data[0].name
+      id = data[0].owner.id
+    }
+
+    return (
+      <div className="starredrepos">
+        <p>{name}{id}</p> {/* //.map(repo => <p><a href={repo["repo_url"]}>{repo["name"]}</a></p>)} */}
+      </div>
      )
    }
  }

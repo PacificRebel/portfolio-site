@@ -17,7 +17,7 @@ class App extends Component{
                       <article class="card">
                       <div class="text">
                          <h3><GitHubCall /></h3>
-                         <p>Front End Developer</p>
+                         <p>Job title here</p>
                          </div>
                       </article>
 
