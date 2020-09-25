@@ -4,7 +4,20 @@ import '../styling/RepoLink.scss';
 class ProjectOne extends Component {
   constructor(props) {
     super(props)
-      this.state = { starredUserData: [] }
+      this.state = { starredUserData: [],
+                     isHovering: false
+                    };
+      this.handleMouseHover = this.handleMouseHover.bind(this);
+    };
+
+    handleMouseHover() {
+      this.setState(this.toggleHoverState);
+    }
+
+    toggleHoverState(state) {
+      return {
+      isHovering: !state.isHovering,
+      };
     }
 
   componentDidMount() {
@@ -17,28 +30,27 @@ class ProjectOne extends Component {
     })
   }
 
-  // componentWillUnmount() {
-  //   this._isMounted = false;
-  // }
-
-
   render() {
     const data = this.state.starredUserData
     console.log(data)
     let name = ''
-    // let id = ''
-    // let description = ''
+    let description = ''
     if (data.length > 0) {
       name = data[0].name
-      // id = data[0].owner.id
-      // description = data[0].description
+      description = data[0].description
     }
 
     return (
       <div className="projectone">
+      <div
+        onMouseEnter={this.handleMouseHover}
+        onMouseLeave={this.handleMouseHover}
+      >
         <p>
         <a href={name}>{name}</a>
-        </p> {/* //.map(repo => <p><a href={repo["repo_url"]}>{repo["name"]}</a></p>)} */}
+        </p>
+      </div>
+      {this.state.isHovering && <div>{description}</div>}
       </div>
      )
    }
