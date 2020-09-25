@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../styling/RepoLink.scss';
+import '../styling/ProjectThree.scss';
 
 class ProjectThree extends Component {
   constructor(props) {
@@ -45,14 +45,14 @@ class ProjectThree extends Component {
         onMouseLeave={this.handleMouseHover}
       >
         <p>
-        <a href={name}>{name}</a>
-        </p>
+        <li><Link to="/ProjectThreeDetails">{name}</li>
+
       </div>
       {this.state.isHovering && <div>{description}</div>}
       </div>
+      </p>
      )
    }
  }
-
 
  export default ProjectThree

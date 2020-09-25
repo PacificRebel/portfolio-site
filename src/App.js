@@ -5,6 +5,7 @@ import BlogLink from './components/BlogLink';
 import ProjectOne from './components/ProjectOne';
 import ProjectTwo from './components/ProjectTwo';
 import ProjectThree from './components/ProjectThree';
+import ProjectThreeDetails from './components/ProjectThreeDetails'
 import './App.scss';
 import { Column, Row } from 'simple-flexbox';
 
@@ -50,7 +51,7 @@ class App extends Component{
                       <article class="card">
                          <p>   </p>
                       </article>
-                      
+
                       <article class="card">
                          <p>   </p>
                       </article>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../styling/RepoLink.scss';
+import '../styling/ProjectOne.scss';
 
 class ProjectOne extends Component {
   constructor(props) {
