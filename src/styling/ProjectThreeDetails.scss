@@ -1,0 +1,23 @@
+$mainFont: 'Special Elite';
+
+.projectthreedetails {
+  font-family: $mainFont;
+  font-size: 30px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:active {
+  text-decoration: underline;
+}

@@ -18,9 +18,9 @@ class BlogLink extends Component {
   render() {
     return (
       <div className="bloglink">
-      <p>
+      <span>
       <a href={this.state.userData.blog}>Blogs</a>
-      </p>
+      </span>
       </div>
     )
   }

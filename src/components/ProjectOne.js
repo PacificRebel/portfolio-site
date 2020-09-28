@@ -46,9 +46,9 @@ class ProjectOne extends Component {
         onMouseEnter={this.handleMouseHover}
         onMouseLeave={this.handleMouseHover}
       >
-        <p>
+        <span>
         <a href={name}>{name}</a>
-        </p>
+        </span>
               {this.state.isHovering && <div>{description}</div>}
       </div>
 

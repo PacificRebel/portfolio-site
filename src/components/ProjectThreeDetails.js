@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../styling/ProjectThree.scss';
+import '../styling/ProjectThreeDetails.scss';
 
 class ProjectThreeDetails extends Component {
   constructor(props) {
@@ -28,8 +28,8 @@ class ProjectThreeDetails extends Component {
 
     return (
       <div className="projectthreedetails">
-      <span>
-      {name}{description}{homepage}
+      <span
+      {name}{description}{homepage}>Hello!
       </span>
       </div>
      )
